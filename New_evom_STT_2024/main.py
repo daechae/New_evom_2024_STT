@@ -84,6 +84,9 @@ def process(data):
 
 if __name__ == '__main__':
 
+    data = {'error': 0, 'data': {'idx': 1219, 'expression': 'neutral', 'process': 0}}
+    process(data)
+
     import util
     # util.read_midi_file(os.path.join('midis', '2022-04-13', 'new-age_maj', 'total_20220413101257.mid'))
     # exit()

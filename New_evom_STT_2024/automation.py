@@ -8,7 +8,6 @@ import glob
 import random
 import win32gui
 import pyperclip
-import mido
 import util
 import win32com.client
 import mido
